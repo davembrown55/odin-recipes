@@ -35,11 +35,7 @@ H3 {
   padding-top: 20px;
 }
 
-p {
-  width: 60%;
-  margin: auto;
-  padding: 20px;
-}
+
 
 .navigation {
   text-align: center;
@@ -56,24 +52,23 @@ p {
 
 .navigation li {
   display: inline-block;
-
 }
 
 .navigation a {
   float: left;
-
   width: 150px;
   border-radius: 15px;
   background-color: hsla(120,100%,25%,0.3);
   margin: 0 10px 0 10px; 
-  padding: 0 10px 0 10px; 
+  padding: 10px; 
+  font-weight: bold;
   
 }
 
 img {
   display: block;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 20px auto 20px auto;
+  box-shadow: 2px 2px 8px hsla(290,60%,70%,8);
 }
 
 div.container {
@@ -81,17 +76,33 @@ div.container {
 }
 
 .list {
-
+  font-family: "Lucida Console", "Courier New", monospace;
   display: inline-block;
   text-align:left;
   padding: 20px;
-  width: 60%;
+  width: 30%;
 }
 
-li {
-  padding: 5px;
- 
+.list li {
+  background-color: cadetblue;
+  border: solid white 6px;
+  color:aliceblue;
+  padding: 8px;
+  list-style-position: inside;
 }
+
+.text-content {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #f0a64d;
+  border-radius: 20px;
+  color:aquamarine;
+  font-weight: bolder;
+  text-shadow: 2px 2px 8px hsla(120,100%,25%,0.6);
+}
+
 
 
 
